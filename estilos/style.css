@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+    background-image: url(img/imagen.jpg);
+}
+
+.encabezado {
+    background-color: cadetblue;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+}
+.lista {
+    list-style: none;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 10px;
+
+}
+
+.lista a{
+    color: rgb(15, 7, 121);
+}
+.secciones{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(28, 10, 136);
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+.secciones:hover{
+    background-color: rgba(57, 15, 206, 0.075);
+    transition: 300ms;
+}
+
+.secciones:active{
+    background-color: rgb(165, 165, 165);
+    color: black;
+    cursor: grabbing;
+}
+
+.inicio{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    background-color: rgb(25, 0, 255);
+    color: white;
+}
+
+.datospersonales{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(7, 8, 94);
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    background-color:rgb(25, 0, 255) ;
+    color: white;
+}
+
+.conocimientos{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    background-color:rgb(25, 0, 255) ;
+    color: white;
+}
+
+.estudios{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    background-color: rgb(25, 0, 255);
+    color: white;
+}
+
+.experiencialaboral{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: grab;
+    background-color: rgb(25, 0, 255);
+    color: white;
+}
+
+.referencias{
+    box-shadow: 3px 3px 3px rgb(74, 74, 74);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: rgb(222, 222, 222);
+    cursor: default;
+}
+
+.texto{
+    color: white;
+  
+}
+
+.texto2{
+    color: white;
+  
+}
+
+.portada{
+    height: 590px;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.caja{
+    background-color: rgba(111, 202, 230, 0.562);
+    height: 420px;
+    width: 700px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: default;
+    position: relative;
+}
+
+.final {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+   margin-top: 90px;
+}
